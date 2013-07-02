@@ -1,10 +1,15 @@
-$(document).ready(function() {
+//Constantes
+const SERVER_SOCKET='http://192.168.1.250:3000';
+const INTERVAL=2000;
+const SERVER_CAM='http://192.168.1.250:8889/img/image_snapshot.jpg?';
 
-
-		  var socket = io.connect('http://192.168.1.250:3000');
+var socket = io.connect(SERVER_SOCKET);
                     socket.on('message', function (data) {
                    // console.log(data.message);
 	  	            });
+
+$(document).ready(function() {
+
 
           //Pedimos la situacion actual de los dispositivos:
 
@@ -84,37 +89,36 @@ $(document).ready(function() {
                  	socket.emit('sliderToBroadcast', slider_value);
                  	});
 
-                //Cada 2 segundos mandamos una peticion de lectura de sensores.
+                //Cada X segundos mandamos una peticion de lectura de sensores.
 
 		        setInterval(function() {
                     socket.emit('i_want_data', 'now');
-		            }, 2000);
-
+		            }, INTERVAL);
 });
 
-//Funciones para el manejo de la webcam:
+            //Funciones para el manejo de la webcam:
 
-function LoadImages() {
-	var microtime= Date.now();
-	//console.log(microtime);
+            function LoadImages() {
+                var microtime= Date.now();
+                //console.log(microtime);
 
-	$.imgpreloader({
-		paths: [ 'http://192.168.1.250:8889/img/image_snapshot.jpg?'+microtime ]
-	}).done(function($allImages){
-		$("#output").html($allImages);
-		//console.log("cargada imagen");
-	});
-}
+                $.imgpreloader({
+                    paths: [ SERVER_CAM+microtime ]
+                    }).done(function($allImages){
+                    $("#output").html($allImages);
+                    //console.log("cargada imagen");
+                    });
+                }
 
 
-function goCam() {
-    window.location="#webcam";
-	//console.log('Start Cam');
-	window.loading= setInterval(LoadImages, 1000);
-    }
+                function goCam() {
+                    window.location="#webcam";
+                    //console.log('Start Cam');
+                    window.loading= setInterval(LoadImages, 1000);
+                }
 
-function stopCam() {
-	clearInterval(window.loading);
-	//console.log('Stop Cam');
-	window.location="#inicio";
-    }
+                function stopCam() {
+                    clearInterval(window.loading);
+                    //console.log('Stop Cam');
+                    window.location="#inicio";
+                }

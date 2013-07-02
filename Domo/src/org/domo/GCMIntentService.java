@@ -72,7 +72,7 @@ public class GCMIntentService extends GCMBaseIntentService {
         //
         json.put("title", extras.getString("title"));
         json.put("message", extras.getString("message"));
-        json.put("msgcnt", extras.getString("msgcnt"));
+        //json.put("msgcnt", extras.getString("msgcnt"));
 
         Log.v(ME + ":onMessage ", json.toString());
 

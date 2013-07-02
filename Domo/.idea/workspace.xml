@@ -23,9 +23,9 @@
     <file path="/GCMRegistrar.java" changelist="b54cf8de-f905-4e47-a9fb-e12b7bca640c" time="1369847798934" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="b54cf8de-f905-4e47-a9fb-e12b7bca640c" time="1369850110816" ignored="false" />
     <file path="$PROJECT_DIR$/gen/org/domo/R.java" changelist="b54cf8de-f905-4e47-a9fb-e12b7bca640c" time="1369848772140" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/org/domo/BuildConfig.java" changelist="b54cf8de-f905-4e47-a9fb-e12b7bca640c" time="1369848866103" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/org/domo/BuildConfig.java" changelist="b54cf8de-f905-4e47-a9fb-e12b7bca640c" time="1372758589276" ignored="false" />
     <file path="$USER_HOME$/.AndroidStudioPreview/system/compile-server/domo_2ea6e56f/targets/java-production/Domo/android/generated_sources/aapt/org/domo/R.java" changelist="b54cf8de-f905-4e47-a9fb-e12b7bca640c" time="1369848868239" ignored="false" />
-    <file path="/my.js" changelist="b54cf8de-f905-4e47-a9fb-e12b7bca640c" time="1372244771479" ignored="false" />
+    <file path="/my.js" changelist="b54cf8de-f905-4e47-a9fb-e12b7bca640c" time="1372760479298" ignored="false" />
     <file path="/jquery.mobile-1.3.1.min.css" changelist="b54cf8de-f905-4e47-a9fb-e12b7bca640c" time="1372169791966" ignored="false" />
     <file path="/my.css" changelist="b54cf8de-f905-4e47-a9fb-e12b7bca640c" time="1372178792118" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,7 +87,17 @@
     <favorites_list name="Domo" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="my.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/www/js/my.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.51039696">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -110,12 +120,12 @@
         <option value="$PROJECT_DIR$/src/org/domo/GCMPlugin.java" />
         <option value="$PROJECT_DIR$/src/org/domo/GCMRegistrar.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/org/domo/GCMIntentService.java" />
         <option value="$PROJECT_DIR$/res/xml/config.xml" />
         <option value="$PROJECT_DIR$/assets/www/css/jquery.mobile-1.3.1.min.css" />
         <option value="$PROJECT_DIR$/assets/www/css/my.css" />
-        <option value="$PROJECT_DIR$/assets/www/js/CORDOVA_GCM_script.js" />
         <option value="$PROJECT_DIR$/assets/www/index.html" />
+        <option value="$PROJECT_DIR$/src/org/domo/GCMIntentService.java" />
+        <option value="$PROJECT_DIR$/assets/www/js/CORDOVA_GCM_script.js" />
         <option value="$PROJECT_DIR$/assets/www/js/my.js" />
       </list>
     </option>
@@ -151,8 +161,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -168,38 +176,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Domo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Domo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Domo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Domo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Domo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,30 +219,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Domo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Domo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,17 +238,17 @@
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../androidKey" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="domo" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Android Application.Domo">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -457,11 +413,16 @@
       <workItem from="1369921856504" duration="1582000" />
       <workItem from="1372150331604" duration="25834000" />
       <workItem from="1372237232903" duration="10250000" />
+      <workItem from="1372340708162" duration="3230000" />
+      <workItem from="1372353732263" duration="1851000" />
+      <workItem from="1372406078234" duration="207000" />
+      <workItem from="1372407398572" duration="5949000" />
+      <workItem from="1372758088021" duration="2662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55158000" />
+    <option name="totallyTimeSpent" value="69057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="976" extended-state="0" />
@@ -480,7 +441,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24918832" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24918832" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -551,96 +512,110 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/domo/GCMBroadcastReceiver.java">
+    <entry file="file://$PROJECT_DIR$/src/org/domo/StatusNotificationIntent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="635" selection-end="635" vertical-scroll-proportion="0.074906364" />
+        <state line="14" column="38" selection-start="540" selection-end="542" vertical-scroll-proportion="0.19607843" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/domo/StatusBarNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="38" selection-start="2525" selection-end="2528" vertical-scroll-proportion="0.33290488" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/domo/GCMPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="19" selection-start="618" selection-end="618" vertical-scroll-proportion="-0.038071066" />
+        <state line="107" column="72" selection-start="2477" selection-end="2479" vertical-scroll-proportion="0.7647059" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/domo/GCMConstants.java">
+    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="49" selection-start="838" selection-end="877" vertical-scroll-proportion="0.24283935" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/domo/GCMRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="19" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/domo/GCMIntentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="3" selection-start="435" selection-end="435" vertical-scroll-proportion="0.33707866" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/domo/GCMBaseIntentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="30" selection-start="1255" selection-end="1288" vertical-scroll-proportion="-1.9101124" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/js/jquery.imgpreloader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.2241594" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="20" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.3248731">
+        <state line="187" column="87" selection-start="6104" selection-end="6191" vertical-scroll-proportion="0.7840314">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="28" selection-start="3556" selection-end="3556" vertical-scroll-proportion="0.7233502">
+        <state line="62" column="28" selection-start="3556" selection-end="3556" vertical-scroll-proportion="0.7258883">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/css/jquery.mobile-1.3.1.min.css">
+    <entry file="file://$PROJECT_DIR$/src/org/domo/GCMIntentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="73379" selection-start="73503" selection-end="73518" vertical-scroll-proportion="0.03931848" />
+        <state line="8" column="24" selection-start="212" selection-end="212" vertical-scroll-proportion="0.01867995">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
+    <entry file="file://$PROJECT_DIR$/src/org/domo/GCMRegistrar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.11235955" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/css/my.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0373599">
+        <state line="248" column="30" selection-start="10097" selection-end="10107" vertical-scroll-proportion="0.01867995">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/js/GCMPlugin.js">
+    <entry file="file://$PROJECT_DIR$/src/org/domo/GCMBaseIntentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="7" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.59010154">
+        <state line="242" column="25" selection-start="9401" selection-end="9411" vertical-scroll-proportion="0.01867995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.1942716">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/CORDOVA_GCM_script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="7" selection-start="1901" selection-end="1901" vertical-scroll-proportion="-0.35152283">
+        <state line="10" column="6" selection-start="268" selection-end="268" vertical-scroll-proportion="0.1867995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.02739726">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/js/jquery.imgpreloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/js/GCMPlugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="43" selection-start="2416" selection-end="2417" vertical-scroll-proportion="0.56329113">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/js/socket.io.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/js/statusbarnotification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="36" selection-start="187" selection-end="188" vertical-scroll-proportion="-0.04607721">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/my.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="2317" selection-end="2317" vertical-scroll-proportion="1.3483146">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="36" selection-start="2455" selection-end="2455" vertical-scroll-proportion="0.6871728">
+        <state line="18" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.51039696">
           <folding />
         </state>
       </provider>
